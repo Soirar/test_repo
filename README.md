@@ -12,7 +12,7 @@ as described in [PEP 0008][pep_0008].
 
 * Go for readability.
 
-* Use descriptive names, avoid abbreviations.
+* Use descriptive names and avoid abbreviations.
 
     Don't try to save horizontal space, go for understandability. Use only common
     abbreviations. Don't abbreviate by deleting letters in the middle.
@@ -20,7 +20,7 @@ as described in [PEP 0008][pep_0008].
     Yes:
 
     ```
-    file_writer -> descriptive name  
+    file_writer -> descriptive name  oh the weather outside is
     num_errors -> 'num' is a common abbreviation  
     num_http_connections -> 'HTTP' is a well known abbreviation  
     ```
@@ -49,7 +49,7 @@ as described in [PEP 0008][pep_0008].
     struct becomes strct 
     ```
 
-* Don't capitalize acronyms, treat them as regular words.
+* Don't capitalize acronyms. Treat them as regular words.
 
     Yes:
 
@@ -67,7 +67,7 @@ as described in [PEP 0008][pep_0008].
 
 ## Folders, Modules and Namespaces
 
-* Use all lowercase and short words, avoid separating with underscores (`_`).
+* Use all lowercase, short words and avoid separating with underscores (`_`).
 
     Pick short and descriptive names. Make use of underscores only where it
     tremendously improves readability.
@@ -193,7 +193,7 @@ as described in [PEP 0008][pep_0008].
 
     ```
     My_Class -> no underscores
-    fooBar
+    fooBarMe
     ```
 
 ## Functions
@@ -237,14 +237,15 @@ as described in [PEP 0008][pep_0008].
     Yes:
 
     ```
-    m_tables
     m_class
+    m_tables
     ```
 
     No:
 
     ```
     class_ -> technique already used to avoid name collisions, may cause some
+    mtables
     ```
 
 * Add the prefix `g_` for global variables. No, better, avoid them all along.
