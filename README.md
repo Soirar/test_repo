@@ -20,7 +20,7 @@ as described in [PEP 0008][pep_0008].
     Yes:
 
     ```
-    file_writer -> descriptive name  oh the weather outside is
+    file_writer -> descriptive name
     num_errors -> 'num' is a common abbreviation  
     num_http_connections -> 'HTTP' is a well known abbreviation  
     ```
