@@ -1,4 +1,3 @@
-// TODO: Remove comments where it is self-explaining OR make them more descriptive
 # WymonOrion Naming Conventions
 
 These naming conventions apply to the whole WymonOrion project, meaning both
