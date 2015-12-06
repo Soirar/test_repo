@@ -267,6 +267,28 @@ as described in [PEP 0008][pep_0008].
     Foo_bar
     ```
 
+## Exceptions
+
+* Use [UpperCamelCase][upper_camel_case] for excpetion names and add the suffix
+  `Error`.
+
+    Since exceptions are classes, they are also types and are named in
+    the same way.
+
+    Yes:
+
+    ```
+    OutputError
+    InternetConnectionError
+    ```
+
+    No:
+
+    ```
+    OutputException -> wrong suffix
+    bad_internet_connection -> missing suffix
+    ```
+
 ## Enumerations
 
 * Use [UpperCamelCase][upper_camel_case] for enumeration names.
@@ -322,28 +344,6 @@ as described in [PEP 0008][pep_0008].
     ```
     #define Round(x) ...
     #define answer_to_life 42
-    ```
-
-## Exceptions
-
-* Use [UpperCamelCase][upper_camel_case] for excpetion names and add the suffix
-  `Error`.
-
-    Since exceptions are classes, they are also types and are named in
-    the same way.
-
-    Yes:
-
-    ```
-    OutputError
-    InternetConnectionError
-    ```
-
-    No:
-
-    ```
-    OutputException -> wrong suffix
-    bad_internet_connection -> missing suffix
     ```
 
 ---
