@@ -67,7 +67,7 @@ as described in [PEP 0008][pep_0008].
 
 ## Folders, Modules and Namespaces
 
-* Use all-lowercase and short words, avoid separating with underscores (`_`).
+* Use all lowercase and short words, avoid separating with underscores (`_`).
 
     Pick short and descriptive names. Make use of underscores only where it
     tremendously improves readability.
@@ -121,7 +121,7 @@ as described in [PEP 0008][pep_0008].
     Yes:
     
     ```
-    C++ extention module: _system
+    C++ extension module: _system
     Python module: system
     -> import system
     ```
@@ -129,14 +129,14 @@ as described in [PEP 0008][pep_0008].
     No:
     
     ```
-    C++ extention module: system_cpp
+    C++ extension module: system_cpp
     Python module: system
     -> import system
     ```
 
 ## Files
 
-* Use all-lowercase and separate with underscores (`_`).
+* Use all lowercase and separate with underscores (`_`).
 
     Yes:
 
@@ -160,7 +160,7 @@ as described in [PEP 0008][pep_0008].
 * Source files end in `.cpp`.
 
 * For files containing templates and inline functions you don't want to put
-  into an `.hpp` file, use the file extention `.inl` ('inline code').
+  into an `.hpp` file, use the file extension `.inl` ('inline code').
 
 * Give a header declaring and a source file defining a piece of code the same
   name.
@@ -198,7 +198,7 @@ as described in [PEP 0008][pep_0008].
 
 ## Functions
 
-* Use all-lowercase and separate with underscores (`_`).
+* Use all lowercase and separate with underscores (`_`).
     
     Yes:
     
@@ -216,7 +216,7 @@ as described in [PEP 0008][pep_0008].
 
 ## Variables
 
-* Use all-lowercase and separate with underscores (`_`).
+* Use all lowercase and separate with underscores (`_`).
 
     Yes:
 
@@ -251,7 +251,7 @@ as described in [PEP 0008][pep_0008].
 
 ## Constants
 
-* Use all-uppercase and separate with underscores (`_`).
+* Use all uppercase and separate with underscores (`_`).
 
     Yes:
 
@@ -269,7 +269,7 @@ as described in [PEP 0008][pep_0008].
 
 ## Exceptions
 
-* Use [UpperCamelCase][upper_camel_case] for excpetion names and add the suffix
+* Use [UpperCamelCase][upper_camel_case] for exception names and add the suffix
   `Error`.
 
     Since exceptions are classes, they are also types and are named in
@@ -309,7 +309,7 @@ as described in [PEP 0008][pep_0008].
     alternateError {...};
     ```
 
-* Use all-uppercase and separate with underscores (`_`) for enumeration values.
+* Use all uppercase and separate with underscores (`_`) for enumeration values.
 
     The enumeration values are constants and are therefore named in the same 
     way.
@@ -330,7 +330,7 @@ as described in [PEP 0008][pep_0008].
 
 ## Macros
 
-* Use all-uppercase and separate with underscores (`_`).
+* Use all uppercase and separate with underscores (`_`).
 
     Yes:
 
