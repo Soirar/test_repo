@@ -294,7 +294,7 @@ as described in [PEP 0008][pep_0008].
 
 * Use [UpperCamelCase][upper_camel_case] for enumeration names.
 
-    The enumeration name is a type and is therefore named in the same way.
+    The enumeration name is a type and is named in the same way.
 
     Yes:
 
@@ -312,7 +312,7 @@ as described in [PEP 0008][pep_0008].
 
 * Use all uppercase and separate with underscores (`_`) for enumeration values.
 
-    The enumeration values are constants and are therefore named in the same 
+    The enumeration values are constants and are named in the same 
     way.
 
     Yes:
