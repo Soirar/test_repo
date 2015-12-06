@@ -353,6 +353,6 @@ Based on:
 [Google C++ Style Guide][google_cpp_guide]  
 [PEP 0008 -- Style Guide for Python Code][pep_0008]
 
-[google_cpp_guide]: https://google.github.io/styleguide/cppguide.html#Naming, "Google C++ Style Guide"
-[pep_0008]: https://www.python.org/dev/peps/pep-0008/#naming-conventions, "Style Guide for Python Code"
-[upper_camel_case]: http://c2.com/cgi/wiki?UpperCamelCase, "aka PascalCase"
+[google_cpp_guide]: https://google.github.io/styleguide/cppguide.html#Naming "Google C++ Style Guide"
+[pep_0008]: https://www.python.org/dev/peps/pep-0008/#naming-conventions "Style Guide for Python Code"
+[upper_camel_case]: http://c2.com/cgi/wiki?UpperCamelCase "aka PascalCase"
